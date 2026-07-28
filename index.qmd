@@ -1,5 +1,5 @@
 ---
-title: "Blitz Bearcat"
+title: "Emily Strickland"
 subtitle: "M.S. Data Science Candidate · Willamette University"
 image: images/profile.png
 about:

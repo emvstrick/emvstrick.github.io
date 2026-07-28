@@ -9,7 +9,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Blitz Bearcat"
+  title: "Emily Strickland"
   description: "M.S. Data Science portfolio — Willamette University"
   site-url: https://your_github_username.github.io
   navbar:
@@ -31,7 +31,7 @@ website:
         href: https://linkedin.com/in/your_github_username
         aria-label: LinkedIn
   page-footer:
-    left: "© 2026 Blitz Bearcat"
+    left: "© 2026 Emily Strickland"
 
 format:
   html:

@@ -7,7 +7,7 @@ about:
   image-width: 12em
 ---
 
-## Hi, I'm Blitz 👋
+## Hi, I'm Emily
 
 The home page is the ten-second version. This is the longer story — write it in
 your own voice.
