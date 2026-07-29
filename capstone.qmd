@@ -15,9 +15,9 @@ platforms and three years of university enrollment data** into **one relational
 > e-resources each department actually uses and decide what to renew or retire
 > without disproportionately cutting small departments.**
 
-**Role:** I built the monthly usage time series that anchors our findings, including the term-level seasonality view and the year-over-year decline figure.
-**Team:** Emily Strickland, [Sophia Rabbanian](https://github.com/sophiarabb), Tiffany Truong
-**Repo:** [github.com/sophiarabb/data510-libraries](https://github.com/sophiarabb/data510-libraries)
+**Role:** I built the monthly usage time series that anchors our findings, including the term-level seasonality view and the year-over-year decline figure.\
+**Team:** Emily Strickland, [Sophia Rabbanian](https://github.com/sophiarabb), Tiffany Truong\
+**Repo:** [github.com/sophiarabb/data510-libraries](https://github.com/sophiarabb/data510-libraries)\
 
 ## The question
 

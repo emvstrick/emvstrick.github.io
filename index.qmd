@@ -18,7 +18,7 @@ about:
       href: mailto:emvstrick@icloud.com
     - icon: file-earmark-pdf
       text: Resume
-      href: resume.qmd
+      href: Resume_EmilyStrickland_MSDataScience
 ---
 
 I build reproducible data pipelines and turn messy institutional data into
@@ -40,19 +40,19 @@ roles starting September 2026. [Get in touch](about.qmd) or grab my
 
 ::: {.g-col-12 .g-col-md-4}
 ### 🎓 Education
-M.S. Data Science
+M.S. Data Science\
 Willamette University, 2026
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### 🛠️ Toolkit
-R · Python · SQL
+R · Python · SQL\
 Quarto · Git · pandas · scikit-learn
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### 📍 Based in
-San Diego, CA
+San Diego, CA\
 Open to relocation
 :::
 

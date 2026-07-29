@@ -3,13 +3,7 @@ title: "Resume"
 toc: true
 ---
 
-[📄 Download PDF](assets/Resume - Emily Strickland - MS Data Science.pdf){.btn .btn-primary role="button"}
-
-::: {.callout-note appearance="simple"}
-Drop your typeset resume at `assets/resume.pdf` and it appears below. Any PDF
-works tonight — export from Word, Google Docs, or a `vitae`/LaTeX template. The
-web summary below is what recruiters skim; the PDF is what they download.
-:::
+[📄 Download PDF](assets/Resume_EmilyStrickland_MSDataScience.pdf){.btn .btn-primary role="button"}
 
 <iframe src="assets/resume.pdf" width="100%" height="800px"
   style="border: 1px solid #ddd; margin-top: 1rem;">
@@ -17,8 +11,8 @@ web summary below is what recruiters skim; the PDF is what they download.
 
 ## Education
 
-**M.S. Data Science** · Willamette University, Salem, OR *(Aug 2026)*
-**B.S. Data Science**, minor in Computer Science · Willamette University, Salem, OR *(Aug 2026)*
+**M.S. Data Science** · Willamette University, Salem, OR *(Aug 2026)*\
+**B.S. Data Science**, minor in Computer Science · Willamette University, Salem, OR *(May 2026)*
 
 Relevant coursework: Advanced Data Engineering, Advanced Machine Learning, Data
 Visualization, Geographic Information Systems (GIS), Python for Data Science,
