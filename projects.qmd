@@ -11,8 +11,8 @@ listing:
   fields: [image, date, title, description, categories]
 ---
 
-Your capstone lives on [its own page](capstone.qmd). Everything else — course
-projects, analyses you did for fun, contributions — collects here automatically.
+My capstone lives on [its own page](capstone.qmd). Course projects, analyses I
+did for fun, and things I built to learn a tool collect here.
 
 Each project is a folder under `projects/` with an `index.qmd`. Add a folder,
 re-render, and a new card shows up. Delete the example below once you have one

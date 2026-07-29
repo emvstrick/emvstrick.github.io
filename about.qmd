@@ -1,35 +1,28 @@
 ---
 title: "About"
-image: images/profile.png
+image: images/self_image.jpeg
 about:
   template: solana
   image-shape: round
   image-width: 12em
 ---
 
-## Hi, I'm Emilyssdf
+## Hi, I'm Emily
 
-The home page is the ten-second version. This is the longer story — write it in
-your own voice.
+I was first introduced to Data Science when I took the Intro to Data Science with R class at Willamette University. Reading is the thread that runs through it. In high school the public library was where I could always get books, and that access is what still pulls me toward this kind of work: making sure the right resources stay within reach of the people who rely on them. What keeps me in data science is the moment a messy pile of exports turns into a chart that settles an argument.
 
-I came to data science from \[your path: a major, a job, a question that would
-not leave you alone\]. What keeps me here is \[the part of the work you genuinely
-enjoy — the modeling, the wrangling, the moment a chart makes something click\].
-
-At Willamette my focus has been \[your emphasis: forecasting, causal inference,
-NLP, data engineering, ...\]. My [capstone](capstone.qmd) is where that comes
-together.
+At Willamette my focus has been data engineering and descriptive analysis, the unglamorous work of getting inconsistent sources into one honest table before anyone draws a conclusion from it. My [capstone](capstone.qmd) is where that comes together: seven publisher usage reports, five platforms, two versions of the same reporting standard, and a stakeholder who needs a defensible answer.
 
 ### Beyond the terminal
 
-- 🌲 \[Something human — a hobby, a place, a cause.\]
-- 📚 \[Currently reading / learning / building.\]
-- 🎯 \[What you want to be doing in two years.\]
+- 🌲 [Something human: a hobby, a place, a cause.]
+- 📚 [Currently reading / learning / building.]
+- 🎯 [What you want to be doing in two years.]
 
 ### Get in touch
 
-I'm happy to talk about \[data work, collaborations, roles\].
+I'm happy to talk about data work, collaborations, and roles.
 
-- ✉️ [you@willamette.edu](mailto:you@willamette.edu)
-- 💼 [LinkedIn](https://linkedin.com/in/your_github_username)
-- 💻 [GitHub](https://github.com/your_github_username)
+- ✉️ [evstrickland@willamette.edu](mailto:evstrickland@willamette.edu)
+- 💼 [LinkedIn](https://linkedin.com/in/emilyvstrickland)
+- 💻 [GitHub](https://github.com/emvstrick)

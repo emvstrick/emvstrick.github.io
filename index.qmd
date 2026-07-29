@@ -1,7 +1,7 @@
 ---
 title: "Emily Strickland"
 subtitle: "M.S. Data Science Candidate · Willamette University"
-image: images/profile.png
+image: images/self_image.jpeg
 about:
   template: trestles
   image-shape: round
@@ -9,29 +9,29 @@ about:
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/your_github_username
+      href: https://github.com/emvstrick
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/your_github_username
+      href: https://linkedin.com/in/emilyvstrickland
     - icon: envelope
       text: Email
-      href: mailto:you@willamette.edu
+      href: mailto:emvstrick@icloud.com
     - icon: file-earmark-pdf
       text: Resume
       href: resume.qmd
 ---
 
-I build data pipelines and turn messy data into decisions people can act on.
-Right now I am finishing my M.S. in Data Science at **Willamette University**,
-where my capstone [predicts \[your one-line problem\]](capstone.qmd) for
-\[your stakeholder\].
+I build reproducible data pipelines and turn messy institutional data into
+decisions people can act on. Right now I am finishing my M.S. in Data Science at
+**Willamette University**, where my capstone [shows the university libraries
+which e-resources their community actually uses](capstone.qmd) so librarians can
+renew and retire journal packages without quietly cutting off small departments.
 
-I care about \[topics you actually care about — e.g. housing, health equity,
-sports analytics\], reproducible workflows, and explaining a model to the person
-who has to trust it.
+I care about equitable access to information, reproducible workflows, and
+explaining an analysis to the person who has to defend the decision it informs.
 
-**Currently looking for** \[data analyst / data scientist / ML engineer\] roles
-starting \[month year\]. [Get in touch](about.qmd) or grab my
+**Currently looking for** data analyst, data scientist, and geospatial analyst
+roles starting September 2026. [Get in touch](about.qmd) or grab my
 [resume](resume.qmd).
 
 ---
@@ -47,13 +47,13 @@ Willamette University, 2026
 ::: {.g-col-12 .g-col-md-4}
 ### 🛠️ Toolkit
 R · Python · SQL
-Quarto · Git · \[add yours\]
+Quarto · Git · pandas · scikit-learn
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### 📍 Based in
-Salem, OR
-Open to \[remote / relocation\]
+San Diego, CA
+Open to relocation
 :::
 
 :::

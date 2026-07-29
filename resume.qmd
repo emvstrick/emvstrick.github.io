@@ -3,7 +3,7 @@ title: "Resume"
 toc: true
 ---
 
-[📄 Download PDF](assets/resume.pdf){.btn .btn-primary role="button"}
+[📄 Download PDF](assets/Resume - Emily Strickland - MS Data Science.pdf){.btn .btn-primary role="button"}
 
 ::: {.callout-note appearance="simple"}
 Drop your typeset resume at `assets/resume.pdf` and it appears below. Any PDF
@@ -17,30 +17,57 @@ web summary below is what recruiters skim; the PDF is what they download.
 
 ## Education
 
-**M.S. Data Science** — Willamette University, Salem, OR *(2026)*
-**B.S. \[Your Major\]** — \[Your University\], \[City\] *(\[year\])*
+**M.S. Data Science** · Willamette University, Salem, OR *(Aug 2026)*
+**B.S. Data Science**, minor in Computer Science · Willamette University, Salem, OR *(Aug 2026)*
+
+Relevant coursework: Advanced Data Engineering, Advanced Machine Learning, Data
+Visualization, Geographic Information Systems (GIS), Python for Data Science,
+Intro to Data Science with R.
 
 ## Skills
 
 | Area | Tools |
 |------|-------|
-| **Languages** | R, Python, SQL |
-| **Data & ML** | \[tidyverse / pandas, scikit-learn, ...\] |
-| **Workflow** | Git, Quarto, \[Docker, cloud, ...\] |
-| **Communication** | Technical writing, data visualization |
+| **Languages** | Python, R, SQL / PostgreSQL |
+| **Data & ML** | Machine learning, predictive modeling, statistical analysis, data cleaning and validation, pandas, scikit-learn |
+| **Data engineering** | Apache Airflow, dbt, data warehousing, ETL pipelines, star-schema dimensional modeling, Docker Compose, Parquet and S3-compatible object storage |
+| **Geospatial** | ArcGIS, GIS, remote sensing product validation, satellite imagery processing |
+| **Visualization** | matplotlib, ggplot2, Grafana, annotated time series, stakeholder-facing figures |
+| **Workflow** | Git, Quarto, VS Code, RStudio, Beekeeper, Linux |
 
 ## Experience
 
-**\[Job Title\]** — \[Organization\], \[Location\] *(\[dates\])*
+**Data Science Intern** · Clinical Psychology Practice, Remote *(May 2026 to present)*
 
-- Accomplishment framed as impact, not a task description.
-- Another accomplishment with a number in it if you have one.
+- Built Python (pdfplumber) and R workflows that extract, clean, and de-identify patient questionnaire data from PDF records into analysis-ready datasets.
+- Produced visualizations comparing assessment results across patient subgroups to support the practice's research goals.
+
+**Data Science Summer Intern** · NASA Jet Propulsion Laboratory, Pasadena, CA *(May to July 2025)*
+
+- Automated and improved Python scripts for aerosol dataset validation, increasing processing efficiency and accuracy.
+- Conducted data verification and review of remote sensing products to ensure consistency and reliability across datasets.
+- Built a pyrocumulonimbus (PyroCb) match database and generated color GOES satellite imagery to support Brown Carbon analysis.
+- Collaborated with atmospheric scientists to refine dataset verification and visualization workflows.
+
+**Data Science Summer Intern** · NASA Jet Propulsion Laboratory, Pasadena, CA *(May to July 2024)*
+
+- Evaluated relationships among remote sensing datasets in R to study the evolution of Black Carbon and Brown Carbon aerosols in smoke plumes.
+- Brought in ancillary datasets such as weather and temperature profiles to strengthen the analysis.
+- Researched and documented how aerosol properties change through mixing and aging processes.
+- Collaborated with Earth Science researchers to refine methods for tracking aerosol evolution.
 
 ## Projects
 
-**\[Capstone Title\]** — see the [Capstone page](capstone.qmd) for the full story.
+**Reading the Data: An Analysis of WU Library's E-Resource Usage** · M.S. capstone. See the [Capstone page](capstone.qmd) for the full story.
 
-- One line on the problem and your role.
+- Consolidated seven COUNTER usage reports across five publisher platforms and three years of enrollment data into one relational dataset, surfacing a 29% year-over-year decline in e-resource usage and per-department usage intensity for library renewal decisions.
 
-*Placeholders in brackets are fine while you build. Replace them with real,
-defensible entries as they materialize — sparse and true beats full and shaky.*
+**Metro Ridership Data Warehouse & Pipeline** · Advanced Data Engineering, Summer 2026
+
+- Built a PostgreSQL warehouse on a shared Linux VM with Docker Compose and persistent storage, using a star-schema dimensional model for a metro ridership simulation.
+- Developed Airflow pipelines that snapshot source data into an S3-compatible data lake as Parquet and load it into staging, then dbt models that transform staging into dimension tables with hashed surrogate keys for stable joins.
+- Built a Grafana dashboard of ridership by line and hour of day to recommend how a transit authority should allocate limited active trains.
+
+## Languages
+
+English (native or bilingual) · Russian (native or bilingual)
