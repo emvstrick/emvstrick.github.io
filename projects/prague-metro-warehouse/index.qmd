@@ -1,7 +1,7 @@
 ---
 title: "Prague Metro Ridership: Warehouse, Pipeline, and Dashboards"
 description: "A PostgreSQL warehouse and Airflow pipeline over Prague metro tap data, ending in Grafana dashboards that answer how different riders actually use the system."
-date: 2026-07-20
+date: 2026-07-29
 image: milestone3-dashboard.png
 categories: [course-work, data-engineering, airflow, dbt, sql, dashboards]
 ---
