@@ -1,0 +1,77 @@
+---
+title: "Prague Metro Ridership: Warehouse, Pipeline, and Dashboards"
+description: "A PostgreSQL warehouse and Airflow pipeline over Prague metro tap data, ending in Grafana dashboards that answer how different riders actually use the system."
+date: 2026-07-20
+image: milestone3-dashboard.png
+categories: [course-work, data-engineering, airflow, dbt, sql, dashboards]
+---
+
+## What it is
+
+Advanced Data Engineering, Summer 2026. The brief was to stand up a real
+warehouse over Prague metro tap records and then answer operational questions
+with it: who rides, when, from where, and for how long. Roughly 443,000 rides
+across four fare types (standard, student, senior, and weekly passes), joined to
+station, zone, and time dimensions.
+
+The point of the course was the plumbing, but the deliverable that gets judged is
+whether anyone can act on what comes out the other end.
+
+## What I built
+
+**Warehouse.** A PostgreSQL warehouse on a shared Linux VM, containerized with
+Docker Compose and persistent storage, modeled as a star schema with fact and
+dimension tables.
+
+**Pipeline.** Airflow DAGs that snapshot source data into an S3-compatible data
+lake as Parquet, then load it into warehouse staging tables. Getting every table
+to load reliably meant working through file-read and database-connection failures
+rather than rerunning by hand.
+
+**Transformations.** dbt models that turn staging into dimension tables with
+reproducible, re-runnable loads, using hashed surrogate keys so joins stay stable
+when the source refreshes.
+
+**Dashboards.** Grafana, built as two panels of analysis rather than a wall of
+charts, with written interpretation sitting next to each figure instead of buried
+in a legend.
+
+## What the dashboards show
+
+![Ride duration analysis: overall average, breakdown by hour, zone, fare type, and day of week, with an entry-station map.](milestone3-dashboard.png){fig-alt="Grafana dashboard showing a 37 minute average ride duration, bar charts by hour of day and zone, a fare type table, and a geographic map of Prague stations colored by average ride duration" width="100%"}
+
+**Ride duration is remarkably flat, except where geography explains it.** The
+system-wide average is 37 minutes. Day of week barely moves it, which means heavy
+weekday volume is not translating into longer trips. What does move it is
+distance from the center: stations on the outer edges of the network, like
+Letňany and Černý Most, average an hour or more, and Zone 2 departures run the
+longest of any zone while Zone 1 runs the shortest.
+
+**Weekly pass holders behave like a different population.** They average 27.8
+minutes against roughly 39 for standard fares, they cluster tightly in the
+historic center around Můstek and Staroměstská, and about 45% of their taps land
+at only five stations. They also peak Sunday and Monday while every other fare
+type peaks midweek. Tourists, in other words, and the data says so without anyone
+having to assert it.
+
+**Students shift the rush hour an hour earlier.** Student taps peak at 07:00 and
+16:00; standard fares peak at 09:00 and 17:00. That is a schedule-planning fact,
+not a curiosity.
+
+![Fare group usage patterns: station clustering map, concentration by fare group, ridership by day of week, and hourly ridership by fare type.](milestone2-dashboard.png){fig-alt="Grafana dashboard showing a map of student rider tap locations across Prague, a bar chart of usage concentration by fare group, ridership by day of week, and hourly tap counts by fare type" width="100%"}
+
+## What I would do differently
+
+The map was the strongest panel and also the least explained. Dot size encodes
+ride volume and nothing on the dashboard says so, which means the most
+information-dense figure depends on the viewer guessing the encoding. I would
+also lay the panels out to follow how people actually read, top to bottom and
+left to right, so the argument builds in order rather than requiring the viewer
+to hunt for it.
+
+The concentration finding (weekly riders clustering at five stations) was real
+analysis buried in a chart that did not make it obvious, and the fact that one
+panel showed only the five busiest stations was disclosed in a description rather
+than in the title. Both are labeling problems, not analysis problems, which is
+exactly the kind of thing that separates a chart that works from one that needs a
+caption to rescue it.

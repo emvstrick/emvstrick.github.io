@@ -104,7 +104,7 @@ consistently rather than in a single source.
 
 ## Findings
 
-![Departments ranked by usage intensity per enrolled student.](projects/capstone/figure1-usage-intensity.png){fig-alt="Horizontal bar chart of journal requests per enrolled student by department, Women's and Gender Studies far ahead of all others" width="90%"}
+![Departments ranked by usage intensity per enrolled student.](projects/capstone/first_chart.png){fig-alt="Horizontal bar chart of journal requests per enrolled student by department, Women's and Gender Studies far ahead of all others" width="90%"}
 
 **Usage does not track enrollment.** Women's & Gender Studies is a dramatic
 outlier: an average enrollment of 3.88 students against 957 requests for
@@ -140,4 +140,4 @@ The written report is in progress and will be published here.
 ## Dig deeper
 
 - 📦 **Code & pipeline:** [data510-libraries](https://github.com/sophiarabb/data510-libraries)
-- 📊 **Poster:** [link once it is final]
+- 📊 **Poster:** link will be here once the poster is finished
